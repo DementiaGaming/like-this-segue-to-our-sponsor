@@ -1,0 +1,19 @@
+{
+    "name": "Like this segway to our sponsor",
+    "description": "segways you to our sponsor",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+      "48": "images/linus48.png",
+      "128": "images/linus128.png"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
