@@ -3,6 +3,8 @@
     "description": "segways you to our sponsor",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
     "icons": {
       "48": "images/linus48.png",
       "128": "images/linus128.png"
