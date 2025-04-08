@@ -1,6 +1,6 @@
 {
-    "name": "Like this segway to our sponsor",
-    "description": "segways you to our sponsor",
+    "name": "Like this segue to our sponsor",
+    "description": "segues you to our sponsor",
     "version": "1.0",
     "manifest_version": 3,
     "permissions": ["activeTab", "scripting"],
